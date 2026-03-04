@@ -1,3 +1,38 @@
 # macOS
 .DS_Store
 **/.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Runtime / logs
+.dev-runtime/
+dev-start.log
+*.log
+
+# Node
+node_modules/
+dist/
+
+# Go
+server/mqtt
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Docker
+uploads/
+
+# Secrets (mTLS certificates)
+secrets/
